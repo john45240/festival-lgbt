@@ -71,10 +71,12 @@ li {
     padding: 10px 20px;
     width: auto;
     color:blue !important;
+    box-shadow: 0 0 1px, 0 0 5px #000000 inset;
 }
 
 .rslides_tabs {
     font-size: 18px;
+    padding: 22px;
     list-style: none outside none;
     text-align: center;
 }
@@ -93,3 +95,12 @@ li {
   display: block;
   float: left;
   }
+
+body{
+  background: url("image/fond.jpg") no-repeat fixed;
+
+}
+
+#page{
+    border-radius: 10px;
+}
